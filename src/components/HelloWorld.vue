@@ -6,6 +6,13 @@
       check out the
       <a href="https://cli.vuejs.org" target="_blank" rel="noopener">vue-cli documentation</a>.
     </p>
+    <h3>学习</h3>
+    <ul>
+      <li><a href="https://www.tslang.cn/" target="_blank" rel="noopener">typescript1</a></li>
+      <li><a href="https://ts.xcatliu.com/" target="_blank" rel="noopener">typescript2</a></li>
+      <li><a href="http://echarts.baidu.com/tutorial.html" target="_blank" rel="noopener">echarts</a></li>
+      <li><a href="https://www.cnblogs.com/itfantasy/p/6043111.html" target="_blank" rel="noopener">json-server</a></li>
+    </ul>
     <h3>Installed CLI Plugins</h3>
     <ul>
       <li><a href="https://github.com/vuejs/vue-cli/tree/dev/packages/%40vue/cli-plugin-babel" target="_blank" rel="noopener">babel</a></li>
@@ -33,7 +40,7 @@
 </template>
 
 <script lang="ts">
-import { Component, Prop, Vue } from 'vue-property-decorator';
+import { Component, Prop, Vue } from 'vue-property-decorator'
 
 @Component
 export default class HelloWorld extends Vue {
